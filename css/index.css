@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+/* -----------------> Diseños generales <----------------- */
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #f0f1ed;
+  font-family: 'Rubik', sans-serif;
+}
+
+main{
+  flex-grow: 1;
+  background-color: #535353;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    background: url("../img/fondo.png"), #7b4397;
+    background: url("../img/fondo.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+    background: url("../img/fondo.png"), linear-gradient(to left, #7b4397, #dc2430)
+}
+
+.section-tittles{
+  text-decoration: underline #B8D312 1px solid;
+  text-decoration-style: double;
+}
+
+/* ----------------->Footer <----------------- */
+
+footer{
+  background-color: #1A0315;
+  color: #f0f1ed;
+}
+
+.footer-sr{
+  text-decoration: none;
+  color: #f0f1ed;
+}
+
+/* ----------------->Fin Footer <----------------- */
+/* | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | */
+/* ----------------->NavBar <----------------- */
+
+/* ----------------->Fin Diseños generales <----------------- */
+/* | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | */
+/* ----------------->NavBar <----------------- */
+
+
+.navbar {
+  background: rgb(26,3,21);
+background: linear-gradient(90deg, rgba(26,3,21,1) 0%, rgba(115,14,93,1) 60%, rgba(110,54,103,1) 100%);}
+
+.btn-nav--login{
+  color:  #f0f1ed;
+  background-color: #829313;
+  border-color: #7d8d11;
+  padding: 4px 5px;
+  
+}
+
+.btn-nav--login:hover{
+  background-color: #B8D312;
+  border-color: #B8D312;
+}
+
+/* ----------------->Fin NavBar <----------------- */
+/* | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | */
+/* ----------------->Carousel <----------------- */
+
+.img-banner{
+  height: 400px;
+  object-fit: cover;
+}
+
+
+/* ----------------->Fin Carousel <----------------- */
+/* | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | */
+/* ----------------->Galeria<----------------- */
+.gallery{
+  display: flex;
+  width: 100vw;
+  height: 300px;
+}
+
+.gallery img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  filter: brightness(80%);
+  transition: .7s ease;
+  
+}
+
+.gallery img:hover{
+  width: 60%;
+  opacity: 1;
+  filter: brightness(130%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
+}
+
+
+/* ----------------->Fin Galeria<----------------- */
+/* | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | */
+/* ----------------->Categorias<----------------- */
+
+.line-up{
+color: #B8D312;
+border-top: 5px solid;
+opacity: 1;
+}
+
+.category-tittle{
+  font-weight: bold;
+}
+
+.container-category{
+  border-radius: 10px;
+}
+
+.img-category{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
+  object-fit: cover;
+} 
+
+.img-category:hover{
+  transform: scale(0.9);
+}
+
+/* ----------------->Fin Categorias<----------------- */
+/* | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | */
+/* ----------------->Cards<----------------- */
+
+.card {
+  width: 250px;
+  height: 400px;
+  background: #b02932;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#b02932),
+    to(#573368)
+  );
+  background: linear-gradient(to left, #b02932, #573368);
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
+  margin: auto;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding:0px 3px;
+  font-size: 15px;
+  
+  width: 100%;
+}
+.card .card-img {
+  justify-content: center;
+  width: 120px;
+  height: 40%;
+  border-radius: 15px;
+  border-radius: 10px;
+}
+
+.card-tittle{
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.card-button{
+  height: 30%;
+  display: flex;
+  align-items: end;
+}
+.card-img--inside {
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+}
+.card button {
+  padding: 8px 25px;
+  display: block;
+  border-radius: 8px;
+  border: none;
+  background: #6e3667;
+  color: #1a0315;
+  font-weight: 600;
+  background: #b8d312;
+}
+.card button:hover {
+  background: #7d8d11;
+  transform: scale(1.1);
+}
+.bi-cart-check-fill {
+  color: #1a0315;
+}
+
+
+
+
+/* ----------------->Fin Cards<----------------- */
+/* | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | */
+/* ----------------->Banner publicitario<----------------- */
+
+.banner {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  animation: brilloAnim 1s infinite alternate; 
+}
+
+
+@keyframes brilloAnim {
+  0% {
+    filter: brightness(1); 
+  }
+  100% {
+    filter: brightness(2); 
+  }
+}
+
+/* ----------------->FIN Banner publicitario<----------------- */
+
+.logo{
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,22 @@
+.cart-container{
+  background-color: #e4e4e4;
+  height: 90%;
+}
+
+.cart-button{
+  background-color: #B8D312;
+}
+
+.cart-button--add{
+  background-color: #B8D312;
+}
+
+.cart-button:hover{
+  transform: scale(1.1);
+  background-color: #B8D312;
+}
+
+.cart-button--add:hover{
+  transform: scale(1.1);
+  background-color: #8fa20e;
+}

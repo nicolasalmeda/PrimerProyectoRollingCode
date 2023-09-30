@@ -1,0 +1,39 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color:#535353;
+}
+main{
+  flex-grow: 1;
+  background-color:#535353;
+}
+
+img{
+  width: 100%;
+
+}
+
+.comeback{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30;
+  background:#535353;
+  min-height: 100vh;
+}
+.button-404{
+  padding: 15px;
+  margin-bottom: 15px;
+  border:none;
+  background:#88D317;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.button-hover{
+  text-decoration:none;
+}

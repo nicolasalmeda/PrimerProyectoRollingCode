@@ -1,0 +1,123 @@
+
+
+/* Aqui comienza el estilo de Category Detail */
+
+
+
+.card {
+  width: 250px;
+  height: 400px;
+  background: #b02932;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#b02932),
+    to(#573368)
+  );
+  background: linear-gradient(to left, #b02932, #573368);
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding:0px 3px;
+  font-size: 15px;
+  
+  width: 100%;
+}
+.card .card-img {
+  justify-content: center;
+  width: 120px;
+  height: 40%;
+  border-radius: 15px;
+  border-radius: 10px;
+}
+
+.card-tittle{
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.card-button{
+  height: 30%;
+  display: flex;
+  align-items: end;
+}
+.card-img--inside {
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+}
+.card button {
+  padding: 8px 25px;
+  display: block;
+  border-radius: 8px;
+  border: none;
+  background: #6e3667;
+  color: #1a0315;
+  font-weight: 600;
+  background: #b8d312;
+}
+.card button:hover {
+  background: #7d8d11;
+  transform: scale(1.1);
+}
+.bi-cart-check-fill {
+  color: #1a0315;
+}
+
+.banner{
+  height: 150px;
+}
+
+.banner .logosamsung{
+  height: 100%;
+  width: 100%;
+}
+
+
+.descripcionbanner{
+  background: rgb(83, 13, 68);
+  background: linear-gradient(
+    90deg,
+    rgb(209, 36, 71) 0%,
+    rgba(115, 14, 93, 1) 60%,
+    rgba(110, 54, 103, 1) 100%
+  );
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
+}
+
+.grid-phones {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 35px;
+  padding: 35px;
+  justify-content: center;
+}
+
+@media (max-width: 560px) {
+  .grid-phones {
+    grid-template-columns: 100%;
+  }
+}
