@@ -220,6 +220,10 @@ opacity: 1;
   color: #1a0315;
 }
 
+.card a {
+  text-decoration: none;
+}
+
 
 
 

@@ -1,0 +1,41 @@
+.textJustify{
+  text-align: justify;
+}
+
+img {
+  width: 100%;
+}
+
+#botonColor {
+  background-color: #b8d312;
+  color: #fff ;
+  font-weight: 600;
+  
+}
+
+.grid-phones {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 35px;
+  padding: 35px;
+  justify-content: center;
+}
+
+@media (max-width: 560px) {
+  .grid-phones {
+    grid-template-columns: 100%;
+    padding: 0px;
+  }
+}
+
+footer {
+  background-color: #1a0315;
+  color: #f0f1ed;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-sr {
+  text-decoration: none;
+  color: #f0f1ed;
+}
