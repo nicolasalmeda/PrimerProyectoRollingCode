@@ -35,7 +35,7 @@
               <a class="nav-link" href="./SamsungCategory.html">Categorías</a>
             </li>
             <li class="nav-item my-1">
-              <a class="nav-link" href="./pages/page404.html">Sobre nosotros</a>
+              <a class="nav-link" href="./aboutus.html">Sobre nosotros</a>
             </li>
             <li class="nav-item my-1">
               <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -103,16 +103,16 @@
 
         <hr class="line-up mt-4" />
 
-        <div class="container mt-1">
+        <div class="container-fluid mt-1 d-flex-column align-items-center justify-content-center">
           <h2>Comentarios</h2>
-          <div class="mb-3">
+          <div class="mb-3 d-flex-column align-items-center justify-content-center m-auto">
             <label for="nombre" class="form-label">Nombre:</label>
-            <input type="text" class="form-control" pattern="[a-z]" id="nombre" maxlength="20" minlength="3"
+            <input type="text" class="form-control " pattern="[a-z]" id="nombre" maxlength="20" minlength="3"
               placeholder="pepe" required />
           </div>
-          <div class="mb-3">
+          <div class="mb-3 d-flex-column justify-content-center align-items-center">
             <label for="comentario" class="form-label">Comentario:</label>
-            <textarea class="form-control" id="comentario" rows="3" maxlength="250" minlength="30" required></textarea>
+            <textarea class="form-control " id="comentario" rows="3" maxlength="250" minlength="30" required></textarea>
           </div>
           <div>
             <a href="../pages/page404.html"><button class="btn btn-primary" id="botonColor">
@@ -120,11 +120,13 @@
               </button></a>
           </div>
         </div>
-        <div class="container-fluid my-4 grid-phones">
+        <div
+          class="container-fluid my-4 grid-phones d-flex-column d-md-flex d-lg-flex align-items-center justify-content-center">
           <div class="card text-light text-justify">
-            <div class="card-body">
-              <h5 class="card-title text-center">Juan</h5>
-              <p class="card-text">
+            <div class="card-body d-flex-column  text-center">
+              <h5 class="card-title text-center mb-3">Juan</h5>
+              <hr class="line-up mb-3">
+              <p class="card-text text-center d-flex align-items-center">
                 Un buen celular para el uso diario pero no lo recomiendo para
                 jugar juegos exigentes, la cámara principal es buena pero la
                 selfie deja que desear mucho, opinión final 8/10.
@@ -134,8 +136,9 @@
 
           <div class="card text-light text text-justify">
             <div class="card-body">
-              <h5 class="card-title text-center">Agustina</h5>
-              <p class="card-text">
+              <h5 class="card-title text-center mb-3">Agustina</h5>
+              <hr class="line-up">
+              <p class="card-text mb-3">
                 Es más potente de lo que aparenta llegando a correr juegos
                 complejos y emuladores pesados como 3DS y PS2.
               </p>
